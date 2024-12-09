@@ -1,6 +1,11 @@
 import "./App.css";
 
 function App() {
+	const copyEmail = (e : React.MouseEvent<HTMLAnchorElement>) => {
+		e.preventDefault();
+		navigator.clipboard.writeText("hpaulbus@gmail.com")
+	};
+
 	return (
 		<>
 			<main>
@@ -38,6 +43,10 @@ function App() {
 				</section>
 				<section className="contact">
 					<h2>Contact Me</h2>
+					<a href="https://github.com/TreeDevv" target="_blank">Github</a>
+					<a href="https://x.com/TreeDevv" target="_blank">Twitter</a>
+					<a href="https://discord.gg/jFKEnU5FtT" target="_blank">Discord</a>
+					<a href="" onClick={copyEmail}>hpaulbus@gmail.com</a>
 				</section>
 			</main>
 		</>
