@@ -38,6 +38,15 @@ h2 {
 	animation: 0.5s ease-out 0s 1 seperateProjects;
 }
 
+.proj-desc {
+	padding: 10px 0;
+	color: rgb(200, 200, 200);
+}
+
+.project h3 a {
+	color: inherit;
+}
+
 .project h3:hover {
 	text-decoration: underline;
 	cursor: pointer;
