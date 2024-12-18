@@ -15,7 +15,13 @@ function App() {
 
 				<section className="work">
 					<h2>My Work</h2>
-
+					<div className="project">
+						<h3><a href="" target="_blank">Pyrokinetics</a></h3>
+						<p className="proj-desc">Lead backend and gameplay programmer for the project. Working to develop different game systems and designing a clean neat codebase where the everyone can work</p>
+						<p>
+							<i>12/15/24 - Present</i>
+						</p>
+					</div>
 					<div className="project">
 						<h3><a href="https://www.roblox.com/games/108274957309847/Rogue-Reborn" target="_blank">Rogue Reborn</a></h3>
 						<p className="proj-desc">Took over as lead programmer and directed programming direction for the game while reworking game, implementing new systems and doing bug fixes for the community. Had no say in game design and game lost community interest and funding over time.</p>
@@ -23,6 +29,7 @@ function App() {
 							<i>8/23/24 - 11/15/24</i>
 						</p>
 					</div>
+
 					{/* <div className="project">
 						<h3>Fisch</h3>
 						<p>
