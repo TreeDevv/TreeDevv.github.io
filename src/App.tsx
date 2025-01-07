@@ -51,6 +51,14 @@ function App() {
 				</section>
 				<section className="side-projects">
 					<h2>Side Projects</h2>
+
+					<div className="project">
+						<h3><a href="#" target="_blank">RPG Tower Defense</a></h3>
+						<p className="proj-desc">Sole developer on a upcoming tower defense game with a stylized RPG theme and lots of medieval RPG themed towers and attacks</p>
+						<p>
+							<i>Whenever I have time lol</i>
+						</p>
+					</div>
 				</section>
 				<section className="contact">
 					<h2>Contact Me</h2>
